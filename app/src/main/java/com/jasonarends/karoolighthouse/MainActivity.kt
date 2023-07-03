@@ -1,6 +1,7 @@
 package com.jasonarends.karoolighthouse
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import android.content.pm.PackageManager
@@ -16,6 +17,7 @@ class MainActivity : ComponentActivity() {
     }
     //private lateinit var sharedPreferences: SharedPreferences
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -28,6 +30,8 @@ class MainActivity : ComponentActivity() {
         val editTextName = findViewById<EditText>(R.id.editTextName)
         val editTextMessage = findViewById<EditText>(R.id.editTextMessage)
         val buttonSave = findViewById<Button>(R.id.buttonSave)
+
+        val sampleUrl = getString(R.string.sample_hammerhead_url)
 
         // load saved data
         //editTextPhone1.setText(sharedPreferences.getString("Phone1", ""))
@@ -44,7 +48,7 @@ class MainActivity : ComponentActivity() {
         if (message != null) {
             editTextMessage.setText(message)
         } else {
-            editTextMessage.setText("https://dashboard.hammerhead.io/live/UniqueText")
+            editTextMessage.setText(sampleUrl)
         }
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Karoo Test</string>
+    <string name="enter_up_to_3_phone_numbers_to_send_sms_to_when_ride_starts">Enter up to 3 phone numbers to send SMS to when ride starts</string>
+    <string name="enter_phone_number_1">Enter Phone Number 1</string>
+    <string name="enter_phone_number_2">Enter Phone Number 2</string>
+    <string name="enter_phone_number_3">Enter Phone Number 3</string>
+    <string name="your_name_will_be_included">Your Name will be included in the message so they know who it\'s from</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="replace_uniquetext_with_your_own_unique_url">Enable tracking first, then check your email for a message from support@hammerhead.io. In the message find the unique URL and enter it below. Replace UniqueText with your own unique URL text</string>
+    <string name="sample_hammerhead_url">https://dashboard.hammerhead.io/live/UniqueText</string>
+    <string name="note_1">NOTE: if you disable and re-enable tracking the URL will change, be sure to come back and correct it!</string>
+    <string name="save">Save</string>
 </resources>
