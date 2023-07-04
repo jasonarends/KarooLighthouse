@@ -33,8 +33,9 @@ object NetworkHelper {
                 response
             }
         } catch (e: Exception){
+            Timber.e(e, "Network error when making POST request")
             e.printStackTrace()
-            null
+            throw e
         }
     }
 }

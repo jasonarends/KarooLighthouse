@@ -74,6 +74,21 @@
             android:layout_height="wrap_content"
             android:text="@string/note_1" />
 
+
+        <Switch
+            android:id="@+id/switchSmsGateway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="@string/sms_gateway" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sms_gateway_explanation" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -10,4 +10,7 @@
     <string name="sample_hammerhead_url">https://dashboard.hammerhead.io/live/UniqueText</string>
     <string name="note_1">NOTE: if you disable and re-enable tracking the URL will change, be sure to come back and correct it!</string>
     <string name="save">Save</string>
+    <string name="sms_gateway">Use SMS Gateway</string>
+    <string name="sms_gateway_explanation">Switch ON to use SMS Gateway for sending SMS. Switch OFF to send SMS directly from the device.</string>
+
 </resources>

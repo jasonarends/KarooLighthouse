@@ -22,8 +22,13 @@ class RideStart(context: SdkContext) : Module(context) {
     override fun onStart(): Boolean {
         Timber.i("RideStart received ride start event")
         val messageHelper = MessageHelper(context)
-        //messageHelper.sendMessage()
-        messageHelper.sendSms()
+
+        val isSmsGatewayUsed = context.keyValueStore.getDouble("isSmsGatewayUsed") ?: 0.0
+        if (isSmsGatewayUsed == 1.0) {
+            messageHelper.sendMessage()
+        } else {
+            messageHelper.sendSms()
+        }
 
         return false
     }
