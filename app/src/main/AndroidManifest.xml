@@ -19,11 +19,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KarooTest"
+        android:theme="@style/Theme.KarooLighthouse"
         tools:targetApi="31">
         <meta-data
             android:name="io.hammerhead.sdk.v0.SDK_MODULE"
-            android:value="com.jasonarends.karoolighthouse.RideStart" />
+            android:value="com.jaso narends.karoolighthouse.RideStart" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

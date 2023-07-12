@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Karoo Test</string>
+    <string name="app_name">Karoo Lighthouse</string>
     <string name="enter_up_to_3_phone_numbers_to_send_sms_to_when_ride_starts">Enter up to 3 phone numbers to send SMS to when ride starts</string>
     <string name="enter_phone_number_1">Enter Phone Number 1</string>
     <string name="enter_phone_number_2">Enter Phone Number 2</string>
